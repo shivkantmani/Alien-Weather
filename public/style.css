@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(330deg, rgba(58,77,212,1) 0%, rgba(95,149,219,1) 70%, rgba(197,231,250,1) 100%);
+    color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    margin: 3% 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    font-size: 48px;
+    color: #3f51b5;
+    background-image: -webkit-linear-gradient(90deg, #3f51b5 0%, #009688 50%, #3f51b5 78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+  }
+.navbar-info{
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.container{
+    width: 70vw;
+    margin: 6% auto 0;
+    text-align: center;
+}
+#location{
+    width: 20vw;
+    height: 5vh;
+    padding: 0 2%;
+    background-color:rgb(212, 221, 255);
+    border: 3px solid #1e2b7d;
+    border-radius: 15px;
+    outline: none;
+    color: rgb(16, 26, 69);
+    box-shadow:  5px 5px 10px #5a6ad5, -5px -5px 10px #5c83ff;
+    
+}
+input::placeholder{
+    color: #1e2b7d;
+    opacity: 0.3;
+}
+.weather-container{
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.weather-container img{
+    width: 300px;
+    height: 300px;
+    color: aqua;
+    filter: hue-rotate(180deg);
+    filter: invert(90%);
+}
+.temperature{
+    margin: 5% 0;
+    font-size: 80px;
+    color: whitesmoke;
+}
+.sky-condition{
+    margin: 5% 0;
+}
+.location{
+    margin: 5%;
+    font-size: 20px;
+}
+.stats{
+    width: 30vw;
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-around;
+}
+.stats img{
+    width: 50px;
+    height: 50px;
+    filter: invert(75%);  
+}
+.humidity, .wind{
+    display: flex;
+}
+.stats-data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2%;
+}
+.stats-data-container :nth-child(1){
+    /* color: palevioletred; */
+    font-size: larger;
+}
+.stats-data-container :nth-child(2){
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+}
