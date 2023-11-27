@@ -64,11 +64,11 @@ input::placeholder{
     align-items: center;
 }
 .weather-container img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     color: aqua;
-    filter: hue-rotate(180deg);
-    filter: invert(90%);
+    /* filter: hue-rotate(180deg); */
+    /* filter: invert(90%); */
 }
 .temperature{
     margin: 5% 0;
